@@ -14,22 +14,23 @@ another website. Write a reply to the customer.
       <p>
         You have the ability to redirect the <code>/blog</code> path of your main application to a different website by utilizing the <code>rewrites()</code> function in your <code>next.config.js</code> file. Here’s an example how to do this:
       </p>
-      <p>
-        module.exports = {'{'}
-        <br /> &nbsp; async rewrites() {'{'}
-        <br /> &nbsp; &nbsp; return [
-        <br /> &nbsp; &nbsp; &nbsp; {'{'}
-        <br /> &nbsp; &nbsp; &nbsp; &nbsp; source: '/blog',
-        <br /> &nbsp; &nbsp; &nbsp; &nbsp; destination: 'https://example.com/blog',
-        <br /> &nbsp; &nbsp; &nbsp; {'}'},
-        <br /> &nbsp; &nbsp; &nbsp; {'{'}
-        <br /> &nbsp; &nbsp; &nbsp; &nbsp; source: '/blog/:vercel',
-        <br /> &nbsp; &nbsp; &nbsp; &nbsp; destination: 'https://example.com/blog/:vercel', // Matched parameters can be used in the destination
-        <br /> &nbsp; &nbsp; &nbsp; {'}'},
-        <br /> &nbsp; &nbsp; ];
-        <br /> &nbsp; {'}'},
-        <br /> {'}'}
-      </p>
+      <pre>
+       module.exports = {  
+         async rewrites() {
+        return [
+      {
+        source: '/blog',
+        destination: 'https://example.com/blog',
+      },
+      {
+        source: '/blog/:vercel',
+        destination: 'https://example.com/blog/:vercel', // Matched parameters can be used in the destination
+      },
+    ]
+  },
+}
+
+      </pre>
     <br></br>
       <p>
         In this example, when a request is made to <code>/blog</code> on your main app, it will be redirected to the specified URL of the external website. Likewise, a request to <code>/blog/:vercel</code> (where <code>:vercel</code> represents any value) will also be redirected accordingly to the external website's URL.
