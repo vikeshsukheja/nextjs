@@ -26,7 +26,7 @@ How would you respond to the customer?
  <br></br>
       <p>Here are the following capabilities that you will get with Vercel Frontend Observability depending on your requirements:</p>
     <ul>
-      <li>Runtime Logs: Runtime logs allow you to search, inspect, and share your team&rsquo;s runtime logs at a project level. You can search runtime logs from the deployments section inside the Vercel dashboard. Your log data is retained for 3 days. For longer log storage, you can use log drains.</li>
+      <li><a href= "https://vercel.com/docs/observability#runtime-logs">Runtime Logs:</a> Runtime logs allow you to search, inspect, and share your team&rsquo;s runtime logs at a project level. You can search runtime logs from the deployments section inside the Vercel dashboard. Your log data is retained for 3 days. For longer log storage, you can use log drains.</li>
       <li>Web Analytics: Web Analytics empowers you with in-depth insights into your website&rsquo;s visitors, showcasing metrics such as top pages, referrers, and demographic data like countries, operating systems, and browser usage.</li>
       <li>Speed Insights: Vercel Speed Insights provides a convenient way to analyze your site&rsquo;s performance metrics directly within the dashboard, without the need to modify your code. Easily view and filter data based on device type, user percentiles, and reporting windows to better understand and optimize your site&rsquo;s speed and user experience.</li>
       <li>Monitoring: Monitoring allows you to visualize, explore, and track usage and traffic. Using the query editor, you can create custom queries to gain greater insights into your application. This allows you to debug issues and optimize all the projects on your Vercel Team.</li>
