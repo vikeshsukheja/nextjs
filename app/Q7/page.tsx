@@ -3,7 +3,7 @@ export default function A7() {
     <div>
 <h1>7. A customer, new to Next.js and Vercel, asks about overages regarding serverless function execution. What would be the best way to help mitigate this? Feel free to use AI to help supplement your answer, but only use AI to help guide your answer and put it into your own words. You can help the customer by providing Vercel or Next.js resources if necessary.</h1>
 <br></br>
-      <p>Hi Mr. Customer,</p>
+   <p>Hi Mr. Customer,</p>
 
     <p>Trust you are well!</p>
 
@@ -26,9 +26,9 @@ export default function A7() {
     <p>For more detailed information, you can refer to the following resources:</p>
 
     <ul>
-        <li>Vercel's guide on managing and optimizing usage</li>
+        <li>Vercel&rsquo;s guide on managing and optimizing usage</li>
         <li>Next.js documentation on data fetching</li>
-        <li>Vercel's guide on configuring Serverless Functions</li>
+        <li>Vercel&rsquo;s guide on configuring Serverless Functions</li>
     </ul>
 
     <p>We can further assist you if you can share specific use case. Feel free to reach out for any more queries that you might have.</p>
