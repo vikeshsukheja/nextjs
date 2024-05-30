@@ -38,7 +38,8 @@ How would you respond to the customer?
     </ul>
  <br></br>
       <p>You can refer to <a href="https://vercel.com/docs/observability">https://vercel.com/docs/observability</a> for more information.</p>
-    <p>And as promised, here are a few 3rd Party Integrations products that can help you with monitoring and logging:</p>
+  <br></br>
+      <p>And as promised, here are a few 3rd Party Integrations products that can help you with monitoring and logging:</p>
     <ul>
       <li>New Relic</li>
       <li>Zoho Corporation</li>
