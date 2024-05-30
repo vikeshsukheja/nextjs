@@ -5,10 +5,14 @@ export default function MyResponse() {
         A customer has a project on Vercel and they want to redirect the /blog
         path to another website. Write a reply to the customer.
       </h4>
+     <br></br>
       <p>Hi Mr. Customer,</p>
+     <br></br>
       <p>Trust you are well.</p>
+     <br></br>
       <p>Please find my response to your query below:</p>
       <p>
+     <br></br>
         You have the ability to redirect the <code>/blog</code> path of your
         main application to a different website by utilizing the{" "}
         <code>rewrites()</code> function in your <code>next.config.js</code>{" "}
@@ -30,6 +34,8 @@ export default function MyResponse() {
   },
 }`}</code>
       </pre>
+      <br></br>
+    
       <p>
         In this example, when a request is made to <code>/blog</code> on your
         main app, it will be redirected to the specified URL of the external
@@ -37,12 +43,16 @@ export default function MyResponse() {
         <code>:vercel</code> represents any value) will also be redirected
         accordingly to the external website&apos;s URL.
       </p>
+      <br></br>
+    
       <p>
         You can find more about rewrites on this link:{" "}
         <a href="https://vercel.com/docs/edge-network/rewrites">
           https://vercel.com/docs/edge-network/rewrites
         </a>
       </p>
+     <br></br>
+    
       <p>
         Additional Sources that might be helpful:
         <br />
@@ -50,10 +60,14 @@ export default function MyResponse() {
           https://vercel.com/docs/edge-network/redirects
         </a>
       </p>
+    <br></br>
+    
       <p>
         Kindly let me know if this was helpful. If not, I will be happy to set
         up a call with my team, who can further help you with this query.
       </p>
+    <br></br>
+    
       <p>Best Regards,</p>
       <p>Vikesh,</p>
       <p>Customer Success Manager, Vercel</p>
