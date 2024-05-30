@@ -1,5 +1,6 @@
 export default function A1(
-   return <!DOCTYPE html>
+   return (
+   <!DOCTYPE html>
 <html>
    <head>
       <title>Q1</title>
@@ -14,4 +15,5 @@ To resolve this issue, we decided there was active communication needed with cus
 
       </p>
    </body>
-</html>)
+</html> );
+}
