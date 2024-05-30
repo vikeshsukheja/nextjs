@@ -1,25 +1,19 @@
-export default function MyResponse() {
-  return (
-    <div>
-      <h4>
-        A customer has a project on Vercel and they want to redirect the /blog
-        path to another website. Write a reply to the customer.
-      </h4>
-      <br />
-      <p>Hi Mr. Customer,</p>
-      <br />
-      <p>Trust you are well.</p>
-      <br />
-      <p>Please find my response to your query below:</p>
-      <p>
-        <br />
-        You have the ability to redirect the <code>/blog</code> path of your
-        main application to a different website by utilizing the{" "}
-        <code>rewrites()</code> function in your <code>next.config.js</code>{" "}
-        file. Here’s an example how to do this:
-      </p>
-      <pre>
-        <code>{`module.exports = {
+<p>5. Imagine that the customer from Question 4 responds with the following email.</p>
+<p>“I’m so frustrated. I’ve been trying to make this work for hours and I just can’t figure it out. It must be a platform issue so why don't you just fix it for me instead of asking me questions.”</p>
+<p>Write a reply to the customer addressing the concerns raised.</p>
+
+<p>Hi Mr. Customer,</p>
+
+<p>Good Afternoon!</p>
+
+<p>I can understand it can be annoying when things don’t work as expected. But be rest assured we will provide you complete support to resolve the query.</p>
+
+<p>Based on your responses and the status code you are receiving; it appears it is an issue with the backend server enforcing a trailing slash. The solution can be found in the link below:</p>
+<p><a href="https://nextjs.org/docs/api-reference/next.config.js/rewrites#rewriting-to-an-external-url">https://nextjs.org/docs/api-reference/next.config.js/rewrites#rewriting-to-an-external-url</a></p>
+
+<p>Rewrites allow you to rewrite to an external url. This is especially useful for incrementally adopting Next.js. The following is an example rewrite for redirecting the /blog route of your main app to an external site.</p>
+
+<pre><code>module.exports = {
   async rewrites() {
     return [
       {
@@ -27,45 +21,42 @@ export default function MyResponse() {
         destination: 'https://example.com/blog',
       },
       {
-        source: '/blog/:vercel',
-        destination: 'https://example.com/blog/:vercel', // Matched parameters can be used in the destination
+        source: '/blog/:slug',
+        destination: 'https://example.com/blog/:slug', // Matched parameters can be used in the destination
       },
     ]
   },
-}`}</code>
-      </pre>
-      <br />
-      <p>
-        In this example, when a request is made to <code>/blog</code> on your
-        main app, it will be redirected to the specified URL of the external
-        website. Likewise, a request to <code>/blog/:vercel</code> (where{" "}
-        <code>:vercel</code> represents any value) will also be redirected
-        accordingly to the external website's URL.
-      </p>
-      <br />
-      <p>
-        You can find more about rewrites on this link:{" "}
-        <a href="https://vercel.com/docs/edge-network/rewrites">
-          https://vercel.com/docs/edge-network/rewrites
-        </a>
-      </p>
-      <br />
-      <p>
-        Additional Sources that might be helpful:
-        <br />
-        <a href="https://vercel.com/docs/edge-network/redirects">
-          https://vercel.com/docs/edge-network/redirects
-        </a>
-      </p>
-      <br />
-      <p>
-        Kindly let me know if this was helpful. If not, I will be happy to set
-        up a call with my team, who can further help you with this query.
-      </p>
-      <br />
-      <p>Best Regards,</p>
-      <p>Vikesh,</p>
-      <p>Customer Success Manager, Vercel</p>
-    </div>
-  );
 }
+</code></pre>
+
+<p>If you're using trailingSlash: true, you also need to insert a trailing slash in the source parameter. If the destination server is also expecting a trailing slash it should be included in the destination parameter as well.</p>
+
+<pre><code>module.exports = {
+  trailingSlash: true,
+  async rewrites() {
+    return [
+      {
+        source: '/blog/',
+        destination: 'https://example.com/blog/',
+      },
+      {
+        source: '/blog/:path*/',
+        destination: 'https://example.com/blog/:path*/',
+      },
+    ]
+  },
+}
+</code></pre>
+
+<p>Summing up:</p>
+
+<ol>
+  <li>trailingSlash: true prevents the second problem of 308 from nextjs.</li>
+  <li>The source and destination both end in /, e.g. /:path*/.</li>
+</ol>
+
+<p>Do let us know if this still doesn’t help you? I would be happy to assign an Engineer to get on a call to guide you. Awaiting your response.</p>
+
+<p>Best Regards,</p>
+<p>Vikesh</p>
+<p>Customer Success Manager, Vercel</p>
