@@ -1,5 +1,5 @@
 export default function A6() {
-  return (
+  return `
     <div>
     <p>6. A customer is just getting started with Vercel and has questions about
 recommended options for third-party integrations for Monitoring or Logging.
@@ -54,5 +54,5 @@ How would you respond to the customer?
 <br></br>
       <p>Best Regards,<br/>Vikesh Sukheja<br/>Customer Success Manager, Vercel</p>
     </div>
-      );
+      `;
 }
