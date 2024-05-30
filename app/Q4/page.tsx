@@ -35,7 +35,7 @@ export default function MyResponse() {
         main app, it will be redirected to the specified URL of the external
         website. Likewise, a request to <code>/blog/:vercel</code> (where{" "}
         <code>:vercel</code> represents any value) will also be redirected
-        accordingly to the external website's URL.
+        accordingly to the external website&apos;s URL.
       </p>
       <p>
         You can find more about rewrites on this link:{" "}
