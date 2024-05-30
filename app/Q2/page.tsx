@@ -2,7 +2,7 @@ export default function A1(){
 return (
    <html>
      <p>2. How would you compare Next.js with another framework? Feel free to compare with a framework of your choice.</p>
-br></br>
+<br></br>
 <p>Angular vs Next.js</p><br></br>
 
 <p> Next.js is a robust framework designed for creating React applications, offering a wide range of features that simplify the process of developing high-performance web applications.</p>
