@@ -12,15 +12,19 @@ How would you respond to the customer?
     </p>
     <br></br>
      <p>Hi Mr. Customer,</p>
-    <p>Thanks for reaching out. I hope you have had a good experience so far with us.</p>
-    <p>I would gladly suggest you a few 3rd party integration options as requested. However, I would like to highlight that at Vercel we have our own in-house Frontend Observability, which has been trusted by leading companies like The Washington Post, Stripe, Neo, Runway, eBay, Upstart, Notion, and many others. This has been carefully prepared to meet the real needs of the customers and provide them with the best features.</p>
-    <p>Observability on Vercel provides you with:</p>
+   <br></br>
+      <p>Thanks for reaching out. I hope you have had a good experience so far with us.</p>
+   <br></br>
+      <p>I would gladly suggest you a few 3rd party integration options as requested. However, I would like to highlight that at Vercel we have our own in-house Frontend Observability, which has been trusted by leading companies like The Washington Post, Stripe, Neo, Runway, eBay, Upstart, Notion, and many others. This has been carefully prepared to meet the real needs of the customers and provide them with the best features.</p>
+  <br></br>
+      <p>Observability on Vercel provides you with:</p>
     <ul>
       <li>Health and performance metrics about your website</li>
       <li>Transparency with security investigations and compliance reporting</li>
       <li>An operational and extra-visible web application system</li>
     </ul>
-    <p>Here are the following capabilities that you will get with Vercel Frontend Observability depending on your requirements:</p>
+ <br></br>
+      <p>Here are the following capabilities that you will get with Vercel Frontend Observability depending on your requirements:</p>
     <ul>
       <li>Runtime Logs: Runtime logs allow you to search, inspect, and share your team&rsquo;s runtime logs at a project level. You can search runtime logs from the deployments section inside the Vercel dashboard. Your log data is retained for 3 days. For longer log storage, you can use log drains.</li>
       <li>Web Analytics: Web Analytics empowers you with in-depth insights into your website&rsquo;s visitors, showcasing metrics such as top pages, referrers, and demographic data like countries, operating systems, and browser usage.</li>
@@ -31,7 +35,8 @@ How would you respond to the customer?
       <li>Log Drains: Log Drains allow you to export your log data, making it easier to debug and analyze. You can configure Log Drains through the Vercel dashboard or through one of our Log Drains integrations.</li>
       <li>Open Telemetry Collector: Vercel&rsquo;s OpenTelemetry (OTEL) collector enables seamless transmission of OTEL traces from your Serverless Functions to APM vendors like New Relic. Traces provide valuable insights into your application&rsquo;s performance, helping pinpoint and resolve issues.</li>
     </ul>
-    <p>You can refer to <a href="https://vercel.com/docs/observability">https://vercel.com/docs/observability</a> for more information.</p>
+ <br></br>
+      <p>You can refer to <a href="https://vercel.com/docs/observability">https://vercel.com/docs/observability</a> for more information.</p>
     <p>And as promised, here are a few 3rd Party Integrations products that can help you with monitoring and logging:</p>
     <ul>
       <li>New Relic</li>
@@ -41,9 +46,12 @@ How would you respond to the customer?
       <li>AppSignal</li>
       <li>Sentry</li>
     </ul>
-    <p>We hope you make the best choice.</p>
-    <p>We will be glad to set up a call to make your decision easier and help you with our unbiased opinion to meet your requirements.</p>
-    <p>Best Regards,<br/>Vikesh Sukheja<br/>Customer Success Manager, Vercel</p>
+  <br></br>
+      <p>We hope you make the best choice.</p>
+ <br></br>
+      <p>We will be glad to set up a call to make your decision easier and help you with our unbiased opinion to meet your requirements.</p>
+   <br></br>
+      <p>Best Regards,<br/>Vikesh Sukheja<br/>Customer Success Manager, Vercel</p>
     </div>
       );
 }
