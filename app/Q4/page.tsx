@@ -14,7 +14,7 @@ another website. Write a reply to the customer.
       <p>
         You have the ability to redirect the <code>/blog</code> path of your main application to a different website by utilizing the <code>rewrites()</code> function in your <code>next.config.js</code> file. Here’s an example how to do this:
       </p>
-      <pre>
+      <p>
         module.exports = {'{'}
         <br /> &nbsp; async rewrites() {'{'}
         <br /> &nbsp; &nbsp; return [
@@ -29,7 +29,7 @@ another website. Write a reply to the customer.
         <br /> &nbsp; &nbsp; ];
         <br /> &nbsp; {'}'},
         <br /> {'}'}
-      </pre>
+      </p>
     <br></br>
       <p>
         In this example, when a request is made to <code>/blog</code> on your main app, it will be redirected to the specified URL of the external website. Likewise, a request to <code>/blog/:vercel</code> (where <code>:vercel</code> represents any value) will also be redirected accordingly to the external website's URL.
