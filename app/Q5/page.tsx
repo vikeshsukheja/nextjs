@@ -1,3 +1,6 @@
+export default function MyResponse() {
+  return (
+    <div>
 <p>5. Imagine that the customer from Question 4 responds with the following email.</p>
 <p>“I’m so frustrated. I’ve been trying to make this work for hours and I just can’t figure it out. It must be a platform issue so why don't you just fix it for me instead of asking me questions.”</p>
 <p>Write a reply to the customer addressing the concerns raised.</p>
@@ -60,3 +63,6 @@
 <p>Best Regards,</p>
 <p>Vikesh</p>
 <p>Customer Success Manager, Vercel</p>
+   </div>
+  );
+}
