@@ -1,6 +1,6 @@
 export default function EmailResponse() {
   return (
-    <div>
+    <html>
      <p>4. A customer has a project on Vercel and they want to redirect the /blog path to
 another website. Write a reply to the customer.
 </p>
@@ -44,6 +44,6 @@ another website. Write a reply to the customer.
       <p>Best Regards,<br/>
       Vikesh,<br/>
       Customer Success Manager, Vercel</p>
-    </div>
+    </html>
   );
 }
