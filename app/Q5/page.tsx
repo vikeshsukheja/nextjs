@@ -1,6 +1,6 @@
 export default function A5() {
   return (
-    <html>
+    <div>
       <h1>5. Imagine that the customer from Question 4 responds with the following email.
 “I’m so frustrated. I’ve been trying to make this work for hours and I just
 can’t figure it out. It must be a platform issue so why don't you just fix it for
@@ -69,6 +69,6 @@ module.exports = {
     <p>Best Regards,</p>
     <p>Vikesh</p>
     <p>Customer Success Manager, Vercel</p>
-    </html>
+    </div>
   );
 }
