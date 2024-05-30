@@ -26,9 +26,9 @@ export default function A7() {
       <p>For more detailed information, you can refer to the following resources:</p>
 
       <ul>
-          <li>Vercel&rsquo;s guide on managing and optimizing usage</li>
-          <li>Next.js documentation on data fetching</li>
-          <li>Vercel&rsquo;s guide on configuring Serverless Functions</li>
+          <li><a href="https://vercel.com/docs/pricing/manage-and-optimize-usage">Vercel&rsquo;s guide on managing and optimizing usage</a></li>
+          <li><a href="https://nextjs.org/docs/basic-features/data-fetching">Next.js documentation on data fetching</a></li>
+          <li><a href="https://vercel.com/docs/functions/configuring-functions">Vercel&rsquo;s guide on configuring Serverless Functions</a></li>
       </ul>
  <br />
       <p>We can further assist you if you can share specific use case. Feel free to reach out for any more queries that you might have.</p>
