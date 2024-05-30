@@ -21,7 +21,7 @@ Write a reply to the customer addressing the concerns raised.
     <p>Rewrites allow you to rewrite to an external url. This is especially useful for incrementally adopting Next.js. The following is an example rewrite for redirecting the /blog route of your main app to an external site.</p>
  <br></br>
  <pre>
-module.exports = {
+   <code>{'module.exports = {
   async rewrites() {
     return [
       {
@@ -34,13 +34,13 @@ module.exports = {
       },
     ]
   },
-}
-      </pre>
+}`}</code>  
+   </pre>
  <br></br>
     <p>If you're using trailingSlash: true, you also need to insert a trailing slash in the source parameter. If the destination server is also expecting a trailing slash it should be included in the destination parameter as well.</p>
  <br></br>
   <pre>
-module.exports = {
+ <code>{'module.exports = {
   trailingSlash: true,
   async rewrites() {
     return [
@@ -54,7 +54,7 @@ module.exports = {
       },
     ]
   },
-}
+}`}</code> 
       </pre>
  <br></br>
     <p>Summing up:</p>
